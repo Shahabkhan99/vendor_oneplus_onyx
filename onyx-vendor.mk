@@ -150,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
@@ -317,12 +318,13 @@ PRODUCT_PACKAGES += \
     libwpa_qmi_eap_proxy \
     libTimeService \
     libtime_genoff \
-    OnePlusCamera \
-    OnePlusCameraService \
     TimeService \
     shutdownlistener \
     qcrilmsgtunnel \
     ConnectivityExt \
     org.codeaurora.camera \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    SGApps \
+    Messaging 
+
