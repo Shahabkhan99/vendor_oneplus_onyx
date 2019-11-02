@@ -320,8 +320,7 @@ PRODUCT_PACKAGES += \
     ConnectivityExt \
     org.codeaurora.camera \
     qcnvitems \
-    qcrilhook \
-    SGApps 
+    qcrilhook 
 
 # Sensitive Phone Numbers list
 PRODUCT_COPY_FILES += \
