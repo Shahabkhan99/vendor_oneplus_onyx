@@ -120,4 +120,148 @@ LOCAL_MODULE_SUFFIX := .jar
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := OnePlusCamera
+#LOCAL_MODULE_OWNER := oneplus
+#LOCAL_SRC_FILES := proprietary/priv-app/OnePlusCamera/OnePlusCamera.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := OnePlusCameraService
+#LOCAL_MODULE_OWNER := oneplus
+#LOCAL_SRC_FILES := proprietary/priv-app/OnePlusCameraService/OnePlusCameraService.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := OnePlusGallery
+#LOCAL_MODULE_OWNER := oneplus
+#LOCAL_SRC_FILES := proprietary/priv-app/OnePlusGallery/OnePlusGallery.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := OnePlusWeather
+#LOCAL_MODULE_OWNER := oneplus
+#LOCAL_SRC_FILES := proprietary/priv-app/OnePlusWeather/OnePlusWeather.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := OnePlusWidget
+#LOCAL_MODULE_OWNER := oneplus
+#LOCAL_SRC_FILES := proprietary/priv-app/OnePlusWidget/OnePlusWidget.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Messaging
+LOCAL_MODULE_OWNER := aosp
+LOCAL_SRC_FILES := proprietary/priv-app/Messaging/Messaging.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := SGApps
+LOCAL_MODULE_OWNER := aosp
+LOCAL_SRC_FILES := proprietary/priv-app/SGApps/SGApps.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := wallhaven
+#LOCAL_MODULE_OWNER := wallhaven.cc
+#LOCAL_SRC_FILES := proprietary/priv-app/wallhaven/wallhaven.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := Musicolet
+#LOCAL_MODULE_OWNER := Musicolet
+#LOCAL_SRC_FILES := proprietary/priv-app/Musicolet/Musicolet.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := E-Aperture
+#LOCAL_MODULE_OWNER := E-Aperture
+#LOCAL_SRC_FILES := proprietary/priv-app/E-Aperture/E-Aperture.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := LightPainting
+#LOCAL_MODULE_OWNER := LightPainting
+#LOCAL_SRC_FILES := proprietary/priv-app/LightPainting/LightPainting.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := QPGallery
+#LOCAL_MODULE_OWNER := QPGallery
+#LOCAL_SRC_FILES := proprietary/priv-app/QPGallery/QPGallery.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
+
 endif
